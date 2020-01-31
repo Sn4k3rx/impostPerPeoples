@@ -9,7 +9,7 @@ public abstract class Peoples {
 		
 	}
 	
-	public Peoples(String name, double valueYear) {
+	public Peoples(String name, Double valueYear) {
 		this.name = name;
 		this.valueYear = valueYear;
 	}

@@ -29,5 +29,4 @@ public class JuridicPeoples extends Peoples{
 			return getValueYear() * 0.16;
 		}
 	}
-
 }

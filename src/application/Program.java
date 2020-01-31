@@ -44,18 +44,15 @@ public class Program {
 		}
 		
 		double soma = 0.0;
-		
 		System.out.println();
 		System.out.println("Valores de Taxa: ");
 		for (Peoples p : pessoas) {
 			System.out.println(p.getName() + "   $" + String.format("%.2f", p.impost()));
 			soma += p.impost();
 		}
-		
 		System.out.println();
 		System.out.println("Soma total de taxas: " + String.format("%.2f", soma));
 		
 		in.close();
 	}
-
 }

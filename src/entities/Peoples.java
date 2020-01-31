@@ -6,7 +6,6 @@ public abstract class Peoples {
 	private Double valueYear;
 	
 	public Peoples() {
-		
 	}
 	
 	public Peoples(String name, Double valueYear) {
@@ -31,5 +30,4 @@ public abstract class Peoples {
 	}
 	
 	public abstract Double impost();
-	
 }

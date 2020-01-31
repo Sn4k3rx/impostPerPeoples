@@ -29,6 +29,4 @@ public class FisicPeoples extends Peoples{
 			return getValueYear() * 0.25 - valueHospital * 0.5;
 		}
 	}
-	
-	
 }

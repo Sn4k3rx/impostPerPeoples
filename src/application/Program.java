@@ -48,13 +48,14 @@ public class Program {
 		System.out.println();
 		System.out.println("Valores de Taxa: ");
 		for (Peoples p : pessoas) {
-			double tax = p.impost();
 			System.out.println(p.getName() + "   $" + String.format("%.2f", p.impost()));
-			soma += tax;
+			soma += p.impost();
 		}
 		
 		System.out.println();
 		System.out.println("Soma total de taxas: " + String.format("%.2f", soma));
+		
+		in.close();
 	}
 
 }

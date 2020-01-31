@@ -42,6 +42,19 @@ public class Program {
 				pessoas.add(new JuridicPeoples(name, valueYear, number));
 			}
 		}
+		
+		double soma = 0.0;
+		
+		System.out.println();
+		System.out.println("Valores de Taxa: ");
+		for (Peoples p : pessoas) {
+			double tax = p.impost();
+			System.out.println(p.getName() + "   $" + String.format("%.2f", p.impost()));
+			soma += tax;
+		}
+		
+		System.out.println();
+		System.out.println("Soma total de taxas: " + String.format("%.2f", soma));
 	}
 
 }
